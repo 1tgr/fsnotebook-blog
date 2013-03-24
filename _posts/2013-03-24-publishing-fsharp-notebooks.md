@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Publishing F# Notebooks
 category: news
+title: Publishing F# notebooks
 ---
 {% include JB/setup %}
 

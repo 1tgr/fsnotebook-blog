@@ -1,6 +1,7 @@
 ---
 layout: post
-category : news
+category: news
+title: About the beta
 ---
 {% include JB/setup %}
 

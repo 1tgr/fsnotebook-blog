@@ -1,7 +1,7 @@
 ---
 layout: post
-title: MathJax Support
 category: news
+title: MathJax support
 ---
 {% include JB/setup %}
 
