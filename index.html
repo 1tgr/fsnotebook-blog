@@ -1,0 +1,14 @@
+---
+layout: index
+---
+{% include JB/setup %}
+
+<p>Welcome to the beta of fsnotebook.net, and thank you for helping me build it - I hope you enjoy it,
+and I'm grateful for any feedback.</p>
+
+{% for post in site.posts %}
+<h3><a href="{% raw %}{{ url_for('static', filename = 'blog') }}{% endraw %}{{ post.url }}">{{ post.title }}</a></h3>
+{{ post.content }}
+<p class="pull-right">- <a href="https://twitter.com/{{ site.author.twitter }}">{{ site.author.name }}</a>, {{ post.date | date_to_long_string }}</p>
+{% endfor %}
+

@@ -1,0 +1,17 @@
+{% raw %}
+{% extends 'layout_index.html' %}
+
+{% block container %}
+<div class="hero-unit">
+  <h1>fsnotebook.net</h1>
+  <p>Code and collaborate on the web.</p>
+</div>
+{{ super() }}
+{% endblock %}
+
+{% block container_inner %}
+{% endraw %}
+{{ content }}
+{% raw %}
+{% endblock %}
+{% endraw %}
